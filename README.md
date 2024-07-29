@@ -16,12 +16,12 @@ A third input into the board will toggle the station speakers to turn on in day 
 A forth input into the board will trigger the station speakers to turn on and will signal the DFPlayer to play a doorbell tone.  Too many times, a single residential type doorbell is installed at the station.  The doorbell bell part is installed in on part of the station, however, it cannot be heard in all parts of the station.  Through this project, the doorbell can be heard throughout.  This allows the general public the ability to summon help should they simply pull up to the station.
 
 ## Inputs / Outputs
-###Inputs
+### Inputs
 1 - Alert Trigger
 2 - Alert Acknowledge
 3 - Day / Night Speaker Toggle
 4 - Doorbell
-###Outputs
+### Outputs
 1 - Red LED Lights
 2 - White LED Lights
 3 - Alert Acknowledge (to radio)
