@@ -4,7 +4,7 @@ This is a personal project to assist firefighters in waking up when calls are di
 ## Project Plan
 Utilize an ESP32 ETH-01 Ethernet module to be the brain.  Use espHome to manage the ESP32 for status, over the air updates, and to make the ESP autonomous should it lose conenction to Home Assistant.  Utilize Home Assistant to help with response statistics as well as the potential for additional sensors in the future as well as additional automations.  
 
-##How it works
+## How it works
 The station radio has an output that when the radio is alerted for a call, the GPIO goes to ground.  12vDC from the radio power supply along with the GPIO allow a relay to be triggered when the alert happens.
 
 Once the alert is received by the ESP32, relays will be turned on to:  1) Turn on red LED lights in the bunk room for x amount of time then turn off and turn on white LED lights.  2) Turn on a relay to complete the connection for the station speakers allowing the radio traffic to be heard by the firefighters.  3) Turn on a relay associated with an LED status light for the day/night speaker switch indicating the speakers are turned on.  4) Turn on relay to override the volume controls in each section of the station.  5) Play a soft tone once the speakers are turned on via a DFPlayer micro SD card.  
